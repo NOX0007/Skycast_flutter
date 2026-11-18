@@ -12,7 +12,7 @@
 class ApiConfig {
   ApiConfig._();
 
-  static const String openWeatherApiKey = 'YOUR_OPENWEATHERMAP_API_KEY';
+  static const String openWeatherApiKey = '70a61f5f63fb51b003092ab745178a05';
 
   static const String currentWeatherUrl =
       'https://api.openweathermap.org/data/2.5/weather';
