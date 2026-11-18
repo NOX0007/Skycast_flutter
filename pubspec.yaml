@@ -1,0 +1,34 @@
+name: skycast_weather
+description: SkyCast – Weather Forecast App built with Flutter, Material Design 3, and OpenWeatherMap API.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Material & Cupertino icons
+  cupertino_icons: ^1.0.8
+
+  # HTTP requests to OpenWeatherMap API
+  http: ^1.2.2
+
+  # Persistent local storage for last searched city & unit preference
+  shared_preferences: ^2.3.2
+
+  # GPS location & permission handling
+  geolocator: ^13.0.1
+
+  # Date & time formatting (weekday names, sunrise/sunset, hourly timestamps)
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
